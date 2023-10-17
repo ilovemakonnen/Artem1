@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: 'San Francisco Mono';
+    font-family: San Francisco Mono,sans-serif;
     src: url(/fonts/San\ Francisco\ Mono.zip);
 }
 
@@ -34,7 +34,7 @@ img {
 
 header {
     font-family: Roboto, sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.8em;
 
 }
 
@@ -48,7 +48,7 @@ header {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 h2 {
@@ -67,7 +67,7 @@ h2 {
 
 .block {
     font-family: Montserrat, sans-serif;
-    font-size: 1rem;
+    font-size: 1em;
     background: linear-gradient(#8EEA00, #FF1E00, #7E07A9);
     border-radius: 24px;
     height: 580px;
@@ -94,9 +94,54 @@ a:hover {
 
 .niz {
     text-align: right;
-    font-size: 0.7rem;
+    font-size: 0.7em;
 }
 
 .syl {
     text-align: center;
 }
+
+button {
+    text-align: center;
+}
+
+.second {
+    display: flex;
+    text-align: center;
+}
+
+.three {
+    font-family: Roboto, sans-serif;
+    color: black;
+    line-height: 1.7;
+}
+
+dt {
+    font-weight: normal;
+    font-size: 1,5em;
+}
+
+footer {
+    margin: 0 0 16px 0;
+}
+
+.testblock {
+    background-color: #6d757d;;
+    padding: 15px;
+    margin: 0 0 16px 0;
+    font-family: San Francisco Mono,sans-serif;
+    font-size: 0.85em;
+}
+
+li {
+    padding: 13px;
+}
+
+.no {
+    color: #009999;
+}
+h2:first-letter {
+  color: red;
+  font-size: 30px;
+}
+
